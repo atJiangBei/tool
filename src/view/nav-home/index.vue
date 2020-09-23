@@ -76,8 +76,8 @@ export default{
 			width: 220px;
 			height: 220px;
 			margin: 0 auto;
-			padding: 10px 20px;
-			background: url(../../assets/imgs/item_bg.png) no-repeat center;
+			padding: 15px 10px;
+			background: url(../../assets/imgs/item_bg.svg) no-repeat center;
 			background-size: 100% 100%;
 		}
 		.block_text{
