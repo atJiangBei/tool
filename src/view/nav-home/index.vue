@@ -27,6 +27,10 @@ export default{
 				label:"文件转base64"
 			},
 			{
+				path:"/createImgByCanvas",
+				label:"多图层转图片"
+			},
+			{
 				path:"/",
 				label:"暂无"
 			}

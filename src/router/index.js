@@ -10,6 +10,10 @@ const routes = [
 	{
 		path:"/fileToBase",
 		component:()=>import("@/view/file-to-base64")
+	},
+	{
+		path:"/createImgByCanvas",
+		component:()=>import("@/view/create-img-by-canvas")
 	}
 ]
 
