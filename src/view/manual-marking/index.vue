@@ -19,7 +19,7 @@
         <span v-if="item.attribute" :key="item.text" class="mark-item">
           <span>{{ item.text }}</span>
           <strong>{{ item.attribute }}</strong>
-          <i class="el-icon-error" @click="deleteMarked(index)"></i>
+          <i class="icon-delete" @click="deleteMarked(index)"></i>
         </span>
       </template>
     </div>
@@ -238,12 +238,20 @@ export default {
       color: #fff;
       font-size: 12px;
     }
-    i {
+    i.icon-delete {
+      display: inline-block;
+      height: 16px;
+      width: 16px;
       cursor: pointer;
       position: absolute;
       right: -10px;
       top: -10px;
       display: none;
+      color: #ff0000;
+      font-style: normal;
+    }
+    i.icon-delete::after {
+      content: '×';
     }
     &:hover {
       i {
